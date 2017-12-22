@@ -63,7 +63,7 @@ if(isset($_SESSION['connecte'])){
     }elseif ($_SESSION['typeUser'] == 'producteur'){
 
     }
-    $bioRelaisMP->ajouterComposant($bioRelaisMP->creerItemLien("deconnexion", "Se deconnecter"));
+    $bioRelaisMP->ajouterComposant($bioRelaisMP->creerItemLien("deconnexion", "Déconnexion"));
 } else {
     $bioRelaisMP->ajouterComposant($bioRelaisMP->creerItemLien("connexion", "Se connecter"));
 }

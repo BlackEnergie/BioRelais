@@ -427,24 +427,6 @@ input[type=submit]{
     background-color: #009209;
 }
 
-/* Formulaire de recherches de stations */
-
-.contentRecherche {
-    font-size: 0px;
-    text-align: center;
-    vertical-align: middle;
-    margin-top: 40px;
-}
-
-.contentRecherche input[type=text]{
-    width: 260px;
-    background-image: url("../images/search-icon.png");
-    background-size: 20px 20px;
-    background-position: 1px 3px;
-    background-repeat: no-repeat;
-    padding-left: 24px;
-    margin-bottom: 7px;
-}
 
 
 /*logo BioRelais */
@@ -477,31 +459,10 @@ input[type=submit]{
     font-size: 25px;
 }
 
-/* Tableau des Stations */
+/* Formulaire de création d'un compte */
 
-.tabStations{
-    margin-top: 40px;
-    margin-bottom: 50px;
-    font-family: "Open Sans";
+.creerCompte{
+
 }
 
-.tabStations a {
-    text-decoration: none;
-}
 
-.tabStations table{
-    border-collapse: collapse;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.tabStations td , th{
-    width: 180px;
-    height: 40px;
-    border-bottom: 1px solid #ddd;
-}
-
-.tabStations th {
-    background-color: rgba(0, 0, 150, 0.3);
-}

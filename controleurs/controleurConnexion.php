@@ -18,12 +18,14 @@ $formulaireConnexion->ajouterComposantLigne($formulaireConnexion->creerLabelFor(
 $formulaireConnexion->ajouterComposantLigne($formulaireConnexion->creerInputMdp('mdp', 'mdp', '', 'Mot de passe', 0));
 $formulaireConnexion->ajouterComposantTab();
 
+$formulaireConnexion->ajouterComposantLigne($formulaireConnexion->creerLien('?bioRelaisMP=creercompte', 'Pas encore client ?  Creez un compte !'));
+$formulaireConnexion->ajouterComposantTab();
+
 $formulaireConnexion->ajouterComposantLigne($formulaireConnexion->creerInputSubmit('submitConnex', 'submitConnex', 'Valider'));
 $formulaireConnexion->ajouterComposantTab();
 
 $formulaireConnexion->ajouterComposantLigne($formulaireConnexion->creerLabel($messageErreurConnexion));
 $formulaireConnexion->ajouterComposantTab();
-
 
 $formulaireConnexion->creerFormulaire();
 

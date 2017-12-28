@@ -90,6 +90,15 @@ class adherentDAO
         $unAdherent->hydrate($login);
         return true;
     }
+
+    public static function insertAdherent($mail, $mdp, $nom, $prenom){
+        $sql =  "INSERT INTO adherent VALUES ( '" . $mail ."' , '". $mdp ."' , '" . $nom . "' , '" . $prenom . "');";
+        $res = DBConnex::getInstance()->insert($sql);
+        if ($res == 1){
+            return 1;
+        }
+        return 0;
+    }
 }
 
 ////////////////////////////////////////////////////////////////////////////////

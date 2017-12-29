@@ -25,19 +25,19 @@ $formulaireCompte->ajouterComposantLigne($formulaireCompte->creerInputTexte('new
 $formulaireCompte->ajouterComposantTab();
 
 $formulaireCompte->ajouterComposantLigne($formulaireCompte->creerLabelFor('nom','Nom :'));
-$formulaireCompte->ajouterComposantLigne($formulaireCompte->creerInputTexte('new_nom', 'new_nom', '', 1, '', ''));
+$formulaireCompte->ajouterComposantLigne($formulaireCompte->creerInputTexte('new_nom', 'new_nom', '', 1, 'Nom', ''));
 $formulaireCompte->ajouterComposantTab();
 
-$formulaireCompte->ajouterComposantLigne($formulaireCompte->creerLabelFor('prenom', 'Prenom : '));
-$formulaireCompte->ajouterComposantLigne($formulaireCompte->creerInputTexte('new_prenom', 'new_prenom', '',1, '', ''));
+$formulaireCompte->ajouterComposantLigne($formulaireCompte->creerLabelFor('prenom', 'Prénom : '));
+$formulaireCompte->ajouterComposantLigne($formulaireCompte->creerInputTexte('new_prenom', 'new_prenom', '',1, 'Prénom', ''));
 $formulaireCompte->ajouterComposantTab();
 
 $formulaireCompte->ajouterComposantLigne($formulaireCompte->creerLabelFor('mdp', 'Mot de passe : '));
-$formulaireCompte->ajouterComposantLigne($formulaireCompte->creerInputMdp('new_mdp', 'new_mdp', 1 , '', ''));
+$formulaireCompte->ajouterComposantLigne($formulaireCompte->creerInputMdp('new_mdp', 'new_mdp', 1 , 'Mot de passe', ''));
 $formulaireCompte->ajouterComposantTab();
 
 $formulaireCompte->ajouterComposantLigne($formulaireCompte->creerLabelFor('mdp', 'Confirmez votre mot de passe : '));
-$formulaireCompte->ajouterComposantLigne($formulaireCompte->creerInputMdp('new_confirm', 'new_confirm', 1 , '', ''));
+$formulaireCompte->ajouterComposantLigne($formulaireCompte->creerInputMdp('new_confirm', 'new_confirm', 1 , 'Confirmation du mot de passe', ''));
 $formulaireCompte->ajouterComposantTab();
 
 if(isset($mdpDifferents)){
@@ -45,7 +45,7 @@ if(isset($mdpDifferents)){
     $formulaireCompte->ajouterComposantTab();
 }
 
-$formulaireCompte->ajouterComposantLigne($formulaireCompte->creerInputSubmit('creerCompte', 'creerCompte', 'Creez votre Compte'));
+$formulaireCompte->ajouterComposantLigne($formulaireCompte->creerInputSubmit('creerCompte', 'creerCompte', 'Créez votre Compte'));
 $formulaireCompte->ajouterComposantTab();
 
 if(isset($_POST['creerCompte'])){

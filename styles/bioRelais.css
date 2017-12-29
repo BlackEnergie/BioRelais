@@ -462,7 +462,10 @@ input[type=submit]{
 /* Formulaire de création d'un compte */
 
 .form_creer_compte{
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    text-align: left;
     vertical-align: middle;
     padding: 150px;
 }
@@ -470,7 +473,7 @@ input[type=submit]{
 .creerCompte{
     display: inline-block;
     font-size: 15px;
-    width: 600px;
+    width: 550px;
     height: 350px;
     border: 1px solid black;
     border-radius: 5px;
@@ -478,8 +481,15 @@ input[type=submit]{
 
 .creerCompte .ligne{
     margin-top: 20px;
-    margin-left : 35px ;
+    margin-left : 30px ;
 }
+
+.creerCompte .ligne input {
+    display: inline-block;
+    width: 200px;
+}
+
+
 
 .creerCompte label{
     margin-right: 20px;

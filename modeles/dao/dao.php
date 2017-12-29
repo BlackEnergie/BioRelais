@@ -99,6 +99,20 @@ class adherentDAO
         }
         return 0;
     }
+
+    public static function modifierAdherent($ancienMail, adherent $adherent, $nouveauMDP){
+        $sql = "UPDATE adherent SET ";
+        $sql .= "mail = '" . $adherent->getMail() . "' ,";
+        $sql .= "mdp = '" . $nouveauMDP . "' ,";
+        $sql .= "nom = '" . $adherent->getNom() . "' ,";
+        $sql .= "prenom = '" . $adherent->getPrenom() . "' ";
+        $sql .= "WHERE mail = '" . $ancienMail . "';";
+        $res = DBConnex::getInstance()->update($sql);
+        if($res == 1){
+            return 1;
+        }
+        return 0;
+    }
 }
 
 ////////////////////////////////////////////////////////////////////////////////

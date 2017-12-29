@@ -425,6 +425,7 @@ input[type=submit]{
     box-sizing: border-box;
     color: white;
     background-color: #009209;
+    text-decoration: none;
 }
 
 
@@ -493,6 +494,63 @@ input[type=submit]{
 
 .creerCompte label{
     margin-right: 20px;
+}
+
+.lien{
+    text-decoration: none;
+}
+
+.mon_compte{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-bottom: 25px;
+}
+
+.mon_compte input{
+    margin-top: 15px;
+}
+
+.tab_infos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-collapse: collapse;
+}
+
+.tab_infos td{
+    border-bottom: 1px solid black;
+    height: 40px;
+}
+
+.contentModifier {
+    text-align: center;
+    vertical-align: middle;
+    padding: 150px;
+    height: auto;
+}
+
+.modifier{
+    width: 600px;
+    height: 350px;
+    display: inline-block;
+    text-align : center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.modifier .ligne{
+    margin-top : 15px;
+}
+
+.modifier label{
+    margin-right: 15px;
 }
 
 

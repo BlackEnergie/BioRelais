@@ -60,10 +60,10 @@ if(isset($_SESSION['connecte'])){
 
     if($_SESSION['typeUser'] == 'adherent'){
         $bioRelaisMP->ajouterComposant($bioRelaisMP->creerItemLien("panier", "Mon panier"));
+        $bioRelaisMP->ajouterComposant($bioRelaisMP->creerItemLien("monCompte", "Mon Compte"));
     }elseif ($_SESSION['typeUser'] == 'producteur'){
 
     }
-    $bioRelaisMP->ajouterComposant($bioRelaisMP->creerItemLien("monCompte", "Mon Compte"));
     //$bioRelaisMP->ajouterComposant($bioRelaisMP->creerItemLien("deconnexion", "Déconnexion"));
 } else {
     $bioRelaisMP->ajouterComposant($bioRelaisMP->creerItemLien("connexion", "Se connecter"));

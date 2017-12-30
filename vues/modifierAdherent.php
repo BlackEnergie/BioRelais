@@ -7,6 +7,7 @@
     <div id="content">
         <div class="contentModifier">
             <div class="modifier">
+                <h1>Modifier mes informations</h1>
                 <?php
                     $formulaireModifierCompte->afficherFormulaire();
                 ?>

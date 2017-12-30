@@ -13,6 +13,9 @@
             <input type="submit" onclick='confirmationDeconnexion();' value="Déconnexion" class="deconnexion"/>
             <br>
             <a href="index.php?bioRelaisMP=modifierAdherent" class="lien"><input type="submit" value="Modifier mes informations"></a>
+            <form class="supprimerAdherent" action="index.php" method="post" name="supprimerAdherent" onsubmit="return confirm('Voulez-vous supprimer votre compte? Cette action est irréversible');">
+                <input type="submit" name="supprimerAdherent" id="supprimerAdherent" value="Supprimer mon compte" />
+            </form>
         </div>
 
         <div class="bas">

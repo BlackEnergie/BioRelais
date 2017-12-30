@@ -9,4 +9,9 @@ function afficherInformationsAdherent(adherent $unAdherent){
     return $res;
 }
 
+if(isset($_POST['supprimerAdherent'])){
+    adherentDAO::supprimerAdherent($_SESSION['user']);
+    header('Location: index.php?bioRelaisMP=deconnexion');
+}
+
 include_once 'vues/monCompte.php';

@@ -1,9 +1,14 @@
 <?php
 
+// Message montrant le résultats des modifications
 $msg ='';
 
+
+/////////////////////////////////////////////////////////////////////////////////
+/////////////////////////// Modifie l'adhérent
+/////////////////////////////////////////////////////////////////////////////////
 if(isset($_POST['modifier_adherent'])){
-    if($_POST['modif_mdp'] == $_POST['modif_mdp2']) {
+    if($_POST['modif_mdp'] == $_POST['modif_mdp2']) { // Vérifie si les mots de passe sont identiques
         $newAdherent = new adherent($_POST['modif_mail']);
         $newAdherent->setNom($_POST['modif_nom']);
         $newAdherent->setPrenom($_POST['modif_prenom']);

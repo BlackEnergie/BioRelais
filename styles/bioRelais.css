@@ -538,7 +538,7 @@ input[type=submit]{
 
 .modifier{
     width: 600px;
-    height: 350px;
+    height: 430px;
     display: inline-block;
     text-align : center;
     border: 1px solid black;
@@ -553,6 +553,9 @@ input[type=submit]{
     margin-right: 15px;
 }
 
+#supprimerAdherent{
+    background-color: red;
+}
 
 
 

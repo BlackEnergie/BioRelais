@@ -46,11 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bioRelais.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bioRelais.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/bioRelais.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="742">
+              <caret line="556" column="25" lean-forward="false" selection-start-line="556" selection-start-column="25" selection-end-line="556" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -59,8 +59,8 @@
       <file leaf-file-name="modifierAdherent.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vues/modifierAdherent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="153">
+              <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -69,8 +69,8 @@
       <file leaf-file-name="controleurModifierAdherent.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controleurs/controleurModifierAdherent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="45" column="61" lean-forward="false" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+            <state relative-caret-position="-139">
+              <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -79,9 +79,51 @@
       <file leaf-file-name="monCompte.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vues/monCompte.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="haut.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/haut.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controleurMonCompte.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controleurs/controleurMonCompte.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dao.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modeles/dao/dao.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="116" column="40" lean-forward="false" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
+              <folding>
+                <marker date="1514631648687" expanded="true" signature="1873:1993" ph="select mail,... adherent" />
+                <marker date="1514631648687" expanded="true" signature="2282:2311" ph="INSERT INTO adherent... " />
+                <marker date="1514631648687" expanded="true" signature="2282:2317" ph="INSERT INTO adherent... " />
+                <marker date="1514631648687" expanded="true" signature="2282:2324" ph="INSERT INTO adherent... " />
+                <marker date="1514631648687" expanded="true" signature="2282:2328" ph="INSERT INTO adherent... " />
+                <marker date="1514631648687" expanded="true" signature="2282:2343" ph="INSERT INTO adherent... " />
+                <marker date="1514631648687" expanded="true" signature="2282:2360" ph="INSERT INTO adherent... " />
+                <marker date="1514631648687" expanded="true" signature="2282:2379" ph="INSERT INTO adherent... " />
+                <marker date="1514631648687" expanded="true" signature="2625:2644" ph="UPDATE adherent... " />
+                <marker date="1514631648687" expanded="true" signature="3146:3210" ph="DELETE FROM adherent... " />
+                <marker date="1514631648687" expanded="true" signature="3602:3757" ph="select mail,... producteur" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,15 +151,16 @@
         <option value="$PROJECT_DIR$/controleurs/controleurConnexion.php" />
         <option value="$PROJECT_DIR$/controleurs/ControleurCreerCompte.php" />
         <option value="$PROJECT_DIR$/fonctions/menu.php" />
-        <option value="$PROJECT_DIR$/vues/haut.php" />
         <option value="$PROJECT_DIR$/fonctions/fonctions.php" />
         <option value="$PROJECT_DIR$/controleurs/controleurPrincipal.php" />
-        <option value="$PROJECT_DIR$/controleurs/controleurMonCompte.php" />
-        <option value="$PROJECT_DIR$/modeles/dao/dao.php" />
         <option value="$PROJECT_DIR$/controleurs/controleurModifierAdherent.php" />
         <option value="$PROJECT_DIR$/vues/modifierAdherent.php" />
+        <option value="$PROJECT_DIR$/vues/haut.php" />
         <option value="$PROJECT_DIR$/vues/monCompte.php" />
         <option value="$PROJECT_DIR$/styles/bioRelais.css" />
+        <option value="$PROJECT_DIR$/modeles/dao/dao.php" />
+        <option value="$PROJECT_DIR$/controleurs/controleurMonCompte.php" />
+        <option value="$PROJECT_DIR$/controleurs/controleurDeconnexion.php" />
       </list>
     </option>
   </component>
@@ -150,8 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,6 +256,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,26 +294,28 @@
       <workItem from="1513939760843" duration="238000" />
       <workItem from="1514469567824" duration="14225000" />
       <workItem from="1514546155427" duration="13644000" />
+      <workItem from="1514629195313" duration="2873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28328000" />
+    <option name="totallyTimeSpent" value="31201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1359375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15260416" sideWeight="0.47507954" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15260416" sideWeight="0.4793213" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15260416" sideWeight="0.52492046" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15260416" sideWeight="0.5206787" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -291,11 +336,42 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/styles/bioRelais.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/modifierAdherent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controleurs/controleurModifierAdherent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="61" lean-forward="false" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/monCompte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controleurs/controleurPrincipal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="66" column="6" lean-forward="false" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -303,7 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -312,16 +387,17 @@
         <state relative-caret-position="1156">
           <caret line="68" column="5" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="5" />
           <folding>
-            <marker date="1514563014308" expanded="true" signature="1873:1993" ph="select mail,... adherent" />
-            <marker date="1514563014308" expanded="true" signature="2282:2311" ph="INSERT INTO adherent... " />
-            <marker date="1514563014308" expanded="true" signature="2282:2317" ph="INSERT INTO adherent... " />
-            <marker date="1514563014308" expanded="true" signature="2282:2324" ph="INSERT INTO adherent... " />
-            <marker date="1514563014308" expanded="true" signature="2282:2328" ph="INSERT INTO adherent... " />
-            <marker date="1514563014308" expanded="true" signature="2282:2343" ph="INSERT INTO adherent... " />
-            <marker date="1514563014308" expanded="true" signature="2282:2360" ph="INSERT INTO adherent... " />
-            <marker date="1514563014308" expanded="true" signature="2282:2379" ph="INSERT INTO adherent... " />
-            <marker date="1514563014308" expanded="true" signature="2625:2644" ph="UPDATE adherent... " />
-            <marker date="1514563014308" expanded="true" signature="3370:3525" ph="select mail,... producteur" />
+            <marker date="1514631648687" expanded="true" signature="1873:1993" ph="select mail,... adherent" />
+            <marker date="1514631648687" expanded="true" signature="2282:2311" ph="INSERT INTO adherent... " />
+            <marker date="1514631648687" expanded="true" signature="2282:2317" ph="INSERT INTO adherent... " />
+            <marker date="1514631648687" expanded="true" signature="2282:2324" ph="INSERT INTO adherent... " />
+            <marker date="1514631648687" expanded="true" signature="2282:2328" ph="INSERT INTO adherent... " />
+            <marker date="1514631648687" expanded="true" signature="2282:2343" ph="INSERT INTO adherent... " />
+            <marker date="1514631648687" expanded="true" signature="2282:2360" ph="INSERT INTO adherent... " />
+            <marker date="1514631648687" expanded="true" signature="2282:2379" ph="INSERT INTO adherent... " />
+            <marker date="1514631648687" expanded="true" signature="2625:2644" ph="UPDATE adherent... " />
+            <marker date="1514631648687" expanded="true" signature="3146:3210" ph="DELETE FROM adherent... " />
+            <marker date="1514631648687" expanded="true" signature="3602:3757" ph="select mail,... producteur" />
           </folding>
         </state>
       </provider>
@@ -330,7 +406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -378,7 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="65" column="90" lean-forward="false" selection-start-line="65" selection-start-column="90" selection-end-line="65" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -415,7 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -431,7 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="65" column="90" lean-forward="false" selection-start-line="65" selection-start-column="90" selection-end-line="65" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -501,14 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modeles/dto/adherent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vues/CreerCompte.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -534,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -542,15 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/haut.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -558,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="42" column="43" lean-forward="false" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,65 +619,89 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controleurs/controleurMonCompte.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modeles/dao/dao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="113" column="17" lean-forward="false" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
-          <folding>
-            <marker date="1514563014308" expanded="true" signature="1873:1993" ph="select mail,... adherent" />
-            <marker date="1514563014308" expanded="true" signature="2282:2311" ph="INSERT INTO adherent... " />
-            <marker date="1514563014308" expanded="true" signature="2282:2317" ph="INSERT INTO adherent... " />
-            <marker date="1514563014308" expanded="true" signature="2282:2324" ph="INSERT INTO adherent... " />
-            <marker date="1514563014308" expanded="true" signature="2282:2328" ph="INSERT INTO adherent... " />
-            <marker date="1514563014308" expanded="true" signature="2282:2343" ph="INSERT INTO adherent... " />
-            <marker date="1514563014308" expanded="true" signature="2282:2360" ph="INSERT INTO adherent... " />
-            <marker date="1514563014308" expanded="true" signature="2282:2379" ph="INSERT INTO adherent... " />
-            <marker date="1514563014308" expanded="true" signature="2625:2644" ph="UPDATE adherent... " />
-            <marker date="1514563014308" expanded="true" signature="3370:3525" ph="select mail,... producteur" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/modifierAdherent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controleurs/controleurModifierAdherent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="45" column="61" lean-forward="false" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+        <state relative-caret-position="-139">
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vues/monCompte.php">
+    <entry file="file://$PROJECT_DIR$/vues/modifierAdherent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="153">
+          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/haut.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/bioRelais.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="742">
+          <caret line="556" column="25" lean-forward="false" selection-start-line="556" selection-start-column="25" selection-end-line="556" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modeles/dto/adherent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/monCompte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modeles/dao/dao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="116" column="40" lean-forward="false" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
+          <folding>
+            <marker date="1514631648687" expanded="true" signature="1873:1993" ph="select mail,... adherent" />
+            <marker date="1514631648687" expanded="true" signature="2282:2311" ph="INSERT INTO adherent... " />
+            <marker date="1514631648687" expanded="true" signature="2282:2317" ph="INSERT INTO adherent... " />
+            <marker date="1514631648687" expanded="true" signature="2282:2324" ph="INSERT INTO adherent... " />
+            <marker date="1514631648687" expanded="true" signature="2282:2328" ph="INSERT INTO adherent... " />
+            <marker date="1514631648687" expanded="true" signature="2282:2343" ph="INSERT INTO adherent... " />
+            <marker date="1514631648687" expanded="true" signature="2282:2360" ph="INSERT INTO adherent... " />
+            <marker date="1514631648687" expanded="true" signature="2282:2379" ph="INSERT INTO adherent... " />
+            <marker date="1514631648687" expanded="true" signature="2625:2644" ph="UPDATE adherent... " />
+            <marker date="1514631648687" expanded="true" signature="3146:3210" ph="DELETE FROM adherent... " />
+            <marker date="1514631648687" expanded="true" signature="3602:3757" ph="select mail,... producteur" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controleurs/controleurDeconnexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controleurs/controleurMonCompte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
           <folding />
         </state>
       </provider>

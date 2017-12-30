@@ -23,6 +23,7 @@
                         window.location.href = "index.php?bioRelaisMP=deconnexion";
                     }
                 }
+
             </script>
             <?php
                 echo $menuPrincipal;

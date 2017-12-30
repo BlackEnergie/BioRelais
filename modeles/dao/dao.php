@@ -113,6 +113,12 @@ class adherentDAO
         }
         return 0;
     }
+
+    public static function supprimerAdherent(adherent $adherent){
+        $sql = "DELETE FROM adherent WHERE mail = '" . $adherent->getMail() . "';";
+        $res = DBConnex::getInstance()->delete($sql);
+        return $res;
+    }
 }
 
 ////////////////////////////////////////////////////////////////////////////////
